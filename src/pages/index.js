@@ -1,31 +1,12 @@
 import React from "react";
 import { graphql } from "gatsby";
-import {
-  Layout,
-  SEO,
-  Hero,
-  About,
-  USP,
-  Coaching,
-  // Mediacio,
-  Prices,
-  Book,
-  Training,
-  Contact
-} from "../components/";
+import { Layout, SEO, Hero, Contact } from "../components/";
 import _ from "lodash";
 
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Pap Andrea Coach" />
     <Hero data={_.pick(data, "hero")} />
-    <About data={_.pick(data, "about")} />
-    <USP data={_.pick(data, "usp")} />
-    <Coaching data={_.pick(data, "coaching")} />
-    {/* <Mediacio data={_.pick(data, "mediacio")} /> */}
-    <Prices data={_.pick(data, "prices")} />
-    <Book data={_.pick(data, "book", "andi")} />
-    <Training data={_.pick(data, "training")} />
     <Contact data={_.pick(data, "contact")} />
   </Layout>
 );
