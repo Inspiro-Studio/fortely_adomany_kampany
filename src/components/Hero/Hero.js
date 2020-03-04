@@ -1,6 +1,5 @@
 import React from "react";
 import "./Hero.scss";
-import { ScrollTo } from "../";
 import Fade from "react-reveal/Fade";
 import CountUp from "react-countup";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import { useStaticQuery, graphql } from "gatsby";
-import imageURL from "../../images/andi.png";
+import imageURL from "../../images/logo.jpg";
 
 function SEO({ description, keywords, title }) {
   const { site } = useStaticQuery(
