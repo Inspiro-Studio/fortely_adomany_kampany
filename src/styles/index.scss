@@ -1,0 +1,129 @@
+@import "bootstrap.min.css";
+@import "fonts";
+@import "colors";
+@import "helpers";
+@import "./bootstrap.theme";
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 11px;
+}
+
+main {
+  margin: 0;
+  // background-image: url("../images/hero_wave.svg");
+  background-repeat: no-repeat;
+  background-size: calc(100% + 300px);
+  background-position-x: -200px;
+}
+
+section {
+  padding: 20px 15px;
+  position: relative;
+}
+
+@include tablet {
+  section {
+    padding: 30px 15px;
+  }
+
+  html {
+    font-size: 12px;
+  }
+
+  main {
+    background-size: 100%;
+    background-position-x: 100%;
+  }
+}
+
+@include desktop {
+  html {
+    font-size: 14px;
+  }
+}
+
+@include hd {
+  main {
+    background-size: 1920px;
+    background-position-x: right;
+  }
+}
+
+.button {
+  background-color: $pink;
+  border: 1px solid $pink;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5rem;
+  transition: 0.1s ease-in;
+
+  &:hover {
+    color: #fff;
+  }
+
+  &--inverse {
+    background-color: #fff;
+    color: $pink;
+    border-color: $pink;
+
+    &:hover {
+      color: white;
+      background-color: $pink;
+    }
+  }
+
+  &--inverse-blue {
+    background-color: transparent;
+    color: $blue;
+    border-color: $blue;
+
+    &:hover {
+      color: white;
+      background-color: $blue;
+    }
+  }
+}
+
+section.inverse {
+  color: white;
+  background-color: $blue;
+}
+
+a:hover {
+  text-decoration: none;
+  transition: 0.1s ease-in;
+  filter: opacity(70%);
+}
+
+section#article {
+  padding: 120px 15px;
+
+  .container {
+    max-width: 700px;
+  }
+
+  .article-content {
+    h2 {
+      font-size: 1.75rem;
+      font-weight: 500;
+      text-align: left;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  @include tablet-wide {
+    padding: 150px 45px;
+  }
+
+  @include desktop {
+    padding: 180px 45px;
+  }
+}

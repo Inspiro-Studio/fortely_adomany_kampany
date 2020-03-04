@@ -1,0 +1,129 @@
+@import "../../styles/colors";
+@import "../../styles/helpers";
+@import "../../styles/fonts";
+
+nav.navbar {
+  background-color: transparent;
+  padding: 0;
+  padding-bottom: 10px;
+  width: 100%;
+
+  button:focus {
+    outline: none;
+  }
+
+  .dropdown {
+    display: none;
+  }
+}
+
+div.nav-container {
+  transition: 0.3s ease-in;
+
+  &.nav-background {
+    background-color: rgb(177, 175, 254);
+    // background-color: rgba(107, 99, 255, 0.9);
+    padding-top: 0;
+  }
+}
+
+.navbar-dark .navbar-brand {
+  margin-top: 10px;
+  margin-left: 16px;
+  line-height: 0.9;
+  font-size: 1.25rem;
+  color: $purple-dark !important;
+  font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  text-align: center;
+  padding: 0.7rem 1rem;
+  transition: 0.1s ease-in;
+  font-size: 1.25rem;
+  color: white !important;
+  font-weight: 500;
+
+  &:not(.dropdown-toggle) {
+    display: grid;
+    align-items: center;
+  }
+
+  &:focus {
+    outline: none;
+    color: $purple-dark;
+  }
+
+  &:hover {
+    color: $light-ping !important;
+  }
+}
+
+.navbar-dark .navbar-nav .nav-link.contact-link {
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  padding: 10px 20px;
+  border-radius: 5px;
+
+  &:hover {
+    transition: 0.2s;
+    background-color: $dark-ping;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    color: white !important;
+  }
+
+  span {
+    text-transform: uppercase;
+    color: $white;
+  }
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: transparent !important;
+  background-color: transparent !important;
+  // padding: 0.35rem 0.55rem;
+  font-size: 1.25rem;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-right: 16px;
+}
+
+.navbar-dark .navbar-toggler-icon {
+  overflow: hidden;
+  position: relative;
+  background: none;
+  content: normal;
+  color: transparent !important;
+  background-image: none !important;
+  height: 30px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 26px;
+    height: 4px;
+    background: $purple-dark;
+    box-shadow: 0 10px 0 0 $purple-dark, 0 20px 0 0 $purple-dark;
+  }
+}
+
+@include tablet-wide {
+  div.nav-container {
+    padding-top: 2.5rem;
+  }
+
+  .navbar-dark .navbar-brand {
+    margin-top: 0px;
+  }
+
+  nav.navbar {
+    padding-top: 10px;
+  }
+
+  .navbar-nav {
+    justify-content: flex-end;
+    padding-right: 16px;
+    width: 100%;
+  }
+}

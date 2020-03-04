@@ -1,0 +1,54 @@
+@import "../../styles/helpers";
+@import "../../styles/colors";
+@import "../../styles/fonts";
+
+#book {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  .andi {
+    // background-image: url("../../images/andi_bg.svg");
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-size: 55%;
+    // padding-top: 5rem;
+    // padding-bottom: 5rem;
+
+    .rounded-circle {
+      border-radius: 20% !important;
+    }
+  }
+
+  .image {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    a {
+      background-color: $light-ping !important;
+      border: $light-ping solid 2px;
+      color: white;
+      border-radius: 5px;
+    }
+
+    a:hover {
+      background-color: $dark-ping !important;
+      border-color: $dark-ping !important;
+      color: white;
+    }
+
+    img {
+      max-width: 300px;
+    }
+  }
+}
+
+@include tablet-wide {
+  #book {
+    .image {
+      img {
+        width: 350px;
+      }
+    }
+  }
+}

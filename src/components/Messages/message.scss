@@ -1,0 +1,32 @@
+@import "../../styles/fonts";
+
+.message-container {
+  height: 600px;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding: 40px;
+
+  .message-box {
+    background: linear-gradient(
+      132.02deg,
+      rgba(255, 255, 255, 0.66) 0%,
+      #ffffff 100%
+    );
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px 0 rgba(63, 103, 124, 0.4);
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+    line-height: 3.4rem;
+    font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+}

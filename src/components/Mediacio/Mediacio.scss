@@ -1,0 +1,17 @@
+@import "../../styles/helpers";
+@import "../../styles/colors";
+@import "../../styles/fonts";
+
+#mediacio {
+  background-image: url("../../images/mediacio_bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position-y: 0%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  span {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,68 @@
+@import "../../styles/colors";
+@import "../../styles/helpers";
+@import "../../styles/fonts";
+
+#contact {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .contact {
+    min-height: 450px;
+
+    .form-container {
+      background-image: url("../../images/contact/contact.svg");
+      background-size: cover;
+      min-height: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      padding-bottom: 40rem;
+      form {
+        -webkit-appearance: none !important;
+        label {
+          color: transparent !important;
+        }
+        input,
+        textarea {
+          border: none !important;
+          background-color: transparent !important;
+          border-radius: 0px !important;
+          border-bottom: 1px solid #505050 !important;
+          box-shadow: none !important;
+          color: black !important;
+          font-size: 1.25rem;
+
+          &:hover {
+            border-color: $light-ping !important;
+          }
+
+          &:focus {
+            border-color: $purple-dark !important;
+          }
+        }
+
+        button {
+          background-color: $light-ping !important;
+          border: $light-ping solid 2px;
+          color: white;
+          border-radius: 5px;
+          font-size: 1.25rem;
+
+          &:hover {
+            background-color: $dark-ping !important;
+            border-color: $dark-ping !important;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include tablet {
+  #contact {
+    .form-container {
+      padding-right: 5rem;
+      padding-left: 5rem;
+    }
+  }
+}

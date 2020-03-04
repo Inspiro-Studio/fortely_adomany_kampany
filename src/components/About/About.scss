@@ -1,0 +1,20 @@
+@import "../../styles/helpers";
+@import "../../styles/colors";
+@import "../../styles/fonts";
+
+#about {
+  margin-bottom: 50px;
+
+  span {
+    font-weight: bold;
+  }
+  .image {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    img {
+      max-width: 350px;
+    }
+  }
+}

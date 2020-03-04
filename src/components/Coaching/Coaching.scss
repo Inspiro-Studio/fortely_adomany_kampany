@@ -1,0 +1,44 @@
+@import "../../styles/helpers";
+@import "../../styles/colors";
+@import "../../styles/fonts";
+
+#coaching {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  span {
+    font-weight: bold;
+  }
+  .image {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    a {
+      background-color: $light-ping !important;
+      border: $light-ping solid 2px;
+      color: white;
+      border-radius: 5px;
+    }
+
+    a:hover {
+      background-color: $dark-ping !important;
+      border-color: $dark-ping !important;
+      color: white;
+    }
+
+    img {
+      max-width: 350px;
+    }
+  }
+}
+
+@include tablet-wide {
+  #coaching {
+    .image {
+      img {
+        max-width: 450px;
+      }
+    }
+  }
+}

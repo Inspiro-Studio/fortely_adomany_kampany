@@ -1,0 +1,36 @@
+---
+templateKey: article
+title: „NEM MINDEN KÍVÁNSÁG KÉRDÉSE”
+description: >
+  A napokban egy barátom azt mondta, amikor elmeséltem neki valamit, hogy,
+  „nézd, nem minden kívánság kérdése”
+
+  Rendkívül erősen hatott rám a mondat, akkor nem tudtam miért, de a nap
+  folyamán szépen kibontakozott.
+keywords: kívánság
+date: '2019-10-10'
+image: /img/autumn-background-beautiful-bright-627823.jpg
+---
+Sokáig én is a titok bűvöletében éltem, hittem, hogy minden megteremthető, mi több talán azonnal, és kérek egy peugeot 308cc-t és holnap a mittudomki, mittudommivel, majd begördíti a ház elé, én meg beleülök, nyugalommal konstatálva, hogy a forgalmiban is ott áll a nevem, a biztosítás meg még be is van rá fizetve 1 évre. Jaaaa, persze…Mentségemre szolgáljon, kezdő, fiatal elmehasználó voltam, úgy a 20as éveim elején. Mint mindenki más, akinek nem volt „könnyű megszületni” én is a csipkerózsika világ könnyű útjaiban láttam (volna) a megkönnyebbülést.
+
+Na, de felnőttem, beértem. Változni sok minden igen, sok minden pedig NEM változott. Most is hiszek a kívánság erejében, most is hiszek a gondolat teremtésében, sőt, most is hiszem, hogy igenis van megtervezhető jövő. De! Valóban NEM MINDEN kívánság kérdése…
+
+Mégpedig nem kívánság kérdése, hány szívdobbanásod van a VÉGÉIG, nem kívánság kérdése, hogy vajon felkel – e a nap holnap, az sem az, hogy lesz e holnaptól halálos betegség, vagy háború, vagy félelem, vagy kudarc. Az sem, hogy mikor jön el életed szerelme, az sem, hogy mikor fogan meg a gyermeked, az sem mikor menjenek el a szüleid a mindenségbe, az sem mikor találkozz életed nagy lehetőségével, munka, karrier, szerelem, vagy egészség terén.
+
+Miért nem egy kívánság csak? Mert az ilyen hatalmas ugrásokhoz először apróbbak kellenek. Kacsalábon forgó palotához kicsi téglák kellenek. És ki hozza, teszi azokat a téglákat? TE!
+
+Te! A mindennapjaiddal, a mindennapi tetteiddel, az életed perceivel és azok energiájával. Olyan pihentető gondolat volt az, amikor elhittem, hogy csak jó mélyen kell koncentrálnom, aztán meglesz minden. Most kiábrándítalak, nem lesz….De! Lesz energia, fény, öröm, erő, dicsőség, eredmény és hihetetlen önerő akkor, ha Te, igen TE minden nap mindig kihozod a legjobbat az adott 24 órából.
+
+Nem kell minden nap hősnek, megváltónak, vagy maximumnak lenned. Csak tedd a legjobbat, csináld a legjobban, azt add. ami értékes, ami fontos.
+
+Kérlek, adj Te is a VILÁGHOZ! Együtt tudunk csak nagyra nőni.
+
+Minden rossz szavad, kritizáló mondatod, elégedetlen gondolatod tedd félre egy hétig. Csak egy hetet kérek! Csak 7 napot… Arra, hogy megtisztulj és igazi, tiszta energiát tölts a térbe.
+
+Van, ami nem kívánság kérdése, csak ér bennünket, megtörténik, sosem akartad… De számtalan dolog, esemény és történés az; lépjük meg ezeket, kívánjunk gazdag, boldog, teljes holnapot!
+
+Kívánjunk olyan önmagunkat a következő napokra, ami a legmagasabb minőség minden sejtünkből.
+
+Szívbéli üdvözlettel:
+
+Pandera Coach
