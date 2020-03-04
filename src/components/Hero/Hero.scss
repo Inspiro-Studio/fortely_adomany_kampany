@@ -26,22 +26,6 @@
     color: white;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
   }
-
-  .hero1 {
-    width: 650px;
-    height: 444px;
-    position: relative;
-
-    img {
-      position: absolute;
-      left: 0;
-      bottom: 0;
-    }
-    .hero-img3 {
-      height: 444px !important;
-      left: 30%;
-    }
-  }
 }
 
 @include tablet-wide {

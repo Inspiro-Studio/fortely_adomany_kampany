@@ -40,8 +40,8 @@ export default function Nav({ background = true }) {
           offset={-70}
           title="Főoldal"
         >
-          Pap Andrea
-          <span className="d-block">Coach</span>
+          fortély
+          <span className="d-block">sátor</span>
         </Link>
         <button
           className={btnClass}

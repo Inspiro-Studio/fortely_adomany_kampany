@@ -82,13 +82,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Pap Andrea coach`,
-        short_name: `Panderacoach`,
+        name: `Fortélysátor`,
+        short_name: `Fortélysátor`,
         start_url: `/`,
-        background_color: `#6c63ff`,
-        theme_color: `#6c63ff`,
+        background_color: `#5cc4b9`,
+        theme_color: `#5cc4b9`,
         display: "standalone",
-        icon: `src/images/flower1.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.jpg`, // This path is relative to the root of the site.
         crossOrigin: `use-credentials`
       }
     },

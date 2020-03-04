@@ -6,7 +6,7 @@ export default function SuccessPage() {
   return (
     // <Layout>
     <>
-      <SEO title="Pap Andrea Coach" />
+      <SEO title="Fortélysátor" />
       <SuccessMessage />
     </>
     // </Layout>

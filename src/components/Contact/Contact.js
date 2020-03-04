@@ -7,8 +7,8 @@ export default function Form() {
     <section id="contact">
       <div className="container">
         <div className="row contact">
-          <div className="form-container col-12 text-center">
-            <h2 className="underlined text-uppercase">Kapcsolatfelvétel</h2>
+          <div className="form-container col-8 text-center">
+            <h2 className="text-uppercase">Kapcsolatfelvétel</h2>
             <form
               name="contact"
               method="POST"
